@@ -1,6 +1,6 @@
 # Tend
 
-**Tend keeps your Mac tidy without you having to think about it.** It names and files the things you download, and it finds space you can safely free. It lives in your menu bar, and a companion iPhone app does the same job for the files on your phone.
+**Tend keeps your Mac tidy without you having to think about it.** It names and files the things you download, and it finds space you can safely free. It lives in your Dock and menu bar, and a companion iPhone app does the same job for the files on your phone.
 
 **[Download the latest version for Mac](../../releases/latest)** (pick `Tend-x.y.z.dmg`)
 
@@ -31,7 +31,7 @@ The iPhone app (through TestFlight for now) organises the folders you choose on 
 ## What to expect the first time
 
 1. Open the downloaded `.dmg` and drag **Tend** into **Applications**, then open it. It is signed and checked by Apple, so you should see no warning.
-2. Tend is a **menu-bar app**: look for its icon at the top of the screen. There is no Dock icon until you open the window.
+2. Tend opens its window every time you start it and stays in your Dock, like any Mac app. Its menu-bar icon gives quick access: the **⋯** menu there has Pause, Check for Updates and Quit.
 3. It will ask permission to read the folders you choose (Downloads, Desktop, Documents). Say yes only to the ones you want it to look after.
 4. **Dry-run is ON the first time.** Tend shows you what it *would* do and **changes nothing** until you turn dry-run off in Settings. Look at its suggestions for a day, then switch it off when you trust it.
 5. Tend never touches protected places such as system folders, and every action is recorded before it happens.
@@ -39,12 +39,11 @@ The iPhone app (through TestFlight for now) organises the folders you choose on 
 ## Privacy, in plain terms
 
 - **No account, no sign-up, no tracking, no analytics.** Tend is built for one person on one Mac.
-- Reading and naming files happens **on your Mac** by default. Your files, names and text stay there.
-- There is **one optional exception**: if you turn on OpenAI in Settings, the text of files that Tend finds hard to name is sent to OpenAI to help. It is off unless you turn it on, and Tend says so in Settings when it is on.
+- Reading and naming files happens **on your Mac**, using Apple's built-in AI. Your files, names and text never leave it.
 - Your iPhone and Mac talk to each other directly over your Wi-Fi, encrypted with a key made when you paired. Nothing goes through a server.
 
 ## Updates
-Tend checks for a new version once a day and offers to install it, or you can choose **Tend ▸ Check for Updates…** in the menu bar while its window is open. Updates are downloaded from this page and checked before they are installed.
+Tend checks for a new version when it opens and every hour after that, and offers to install it. You can also choose **Tend ▸ Check for Updates…** or use the **⋯** menu in the menu-bar pop-over. Updates are downloaded from this page and checked before they are installed.
 
 ## Needs
 - A Mac with Apple silicon (M1 or later), running **macOS 26 or newer**.
